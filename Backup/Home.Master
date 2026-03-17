@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Orient.Home" Debug="true" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+
+   
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->	
+	<title>Orient Web Solutions</title>	
+	<meta name="description" content="">
+	<meta name="author" content="WebThemez">    
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->    
+	<!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->    
+<link rel="stylesheet" href="css/bootstrap.min.css" />     
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />	
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
+<link rel="stylesheet" href="css/styles.css"/>
+<!-- Font Awesome -->
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="MenuPart" runat="server">
+
+            <header class="header">
+            <div class="container">
+                <nav class="navbar navbar-inverse" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                        <span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand scroll-top logo">
+                    <img src="images/orient.png" height="75px" alt="skytouch" /></a>
+                </div>
+        	<!--/.navbar-header-->
+	            <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav" id="mainNav">
+                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+                        <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+                        <li><a href="#services" class="scroll-link">Services</a></li>
+                        <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
+                        <li><%--<a href="#team" class="scroll-link">Team</a>--%></li>
+                        <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
+                        <li><a href="Admin/Admin.aspx" class="scroll-link">Admin</a></li>
+                    </ul>
+                </div>
+	        <!--/.navbar-collapse-->
+	            </nav>
+	    <!--/.navbar-->
+	        </div>
+	<!--/.container-->
+            </header>
+<!--/.header-->
+            <div id="#top">
+            </div>
+        </asp:ContentPlaceHolder>
+
+         <asp:ContentPlaceHolder id="BannerPart" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+         <asp:ContentPlaceHolder id="MidderPart" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+         <asp:ContentPlaceHolder id="FooterPart" runat="server">
+
+             <footer class="page-section darkBg" id="contactUs">
+             <div class="container">
+                 <div class="row">
+                     <div class="heading text-center">
+								<!-- Heading -->
+								<h2>
+                                    Contact Us</h2>
+								<%--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>--%>
+							</div>
+                 </div>
+                 <div class="row mrgn30">
+                     <div class="col-sm-5">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7418717356713!2d77.37047551468041!3d28.637497482415853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5535873a947%3A0xc6df14be2817f04e!2s27%2C+Cassia+Road%2C+Shipra+Suncity%2C+Indirapuram%2C+Ghaziabad%2C+Uttar+Pradesh+201014!5e0!3m2!1sen!2sin!4v1484291313782" width="450" height="350" frameborder="0" style="border:0" allowfullscreen>
+                         </iframe>
+                     </div>
+                     <div class="col-sm-3">
+                         <h4>
+                             Address:</h4>
+                         <address>
+                             27/3, Cassia Road,<br />Shipra Suncity, Indirapuram,<br />Ghaziabad, Uttar Pradesh<br />Pin - 201014
+                         </address>
+                         <h4>
+                             Contact Info:</h4>
+                         <ul>
+                             <li><i class="fa fa-phone"></i>1-123-345-6789</li>
+                             <li><a href="#"><i class="fa fa-envelope-o"></i>&nbsp;info@orientwebsolutions.com</a></li>
+                         </ul>
+                     </div>
+                     <div class="col-sm-4">
+										 	<!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+		                
+                         <h3 style="margin-top:-37px">
+                             Have Any Query.</h3>
+
+                             <iframe id="ifr" runat="server" src="Test.aspx" height="330px">
+                             
+                             
+                             </iframe>
+                        
+                             </div>
+                         
+                         <%--<div id="success">
+                         </div>--%>
+                         <!-- For success/fail messages -->
+                       
+                     </div>
+                 </div>
+             </div>
+	<!--/.container-->	
+             </footer>
+<!--/.page-section-->
+             <section class="copyright">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <ul class="socialIcons">
+                             <li><a href="#" class="fbIcon" target="_blank">
+                                 <i class="fa fa-facebook-square fa-lg""></i></a></li>
+                             <li><a href="#" class="twitterIcon" target="_blank">
+                                 <i class="fa fa-twitter-square fa-lg""></i></a></li>
+                             <li><a href="#" class="googleIcon" target="_blank">
+                                 <i class="fa fa-google-plus-square fa-lg""></i></a></li>
+                             <li><a href="#" class="pinterest" target="_blank">
+                                 <i class="fa fa-pinterest-square fa-lg""></i></a></li>
+                         </ul>
+                         <div class="pull-right webThemez">
+                             Designed &amp; Developed By:&nbsp;<a href="http://orientwebsolutions.com/">Orient Web Solution</a>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- / .row -->
+             </div>
+             </section>
+             <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

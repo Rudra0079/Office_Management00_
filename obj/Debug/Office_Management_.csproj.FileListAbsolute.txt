@@ -1,0 +1,38 @@
+E:\Project and Script\Application\Orient\bin\Orient.dll.config
+E:\Project and Script\Application\Orient\bin\Orient.dll
+E:\Project and Script\Application\Orient\bin\Orient.pdb
+E:\Project and Script\Application\Orient\obj\Debug\Office_Management_.csproj.AssemblyReference.cache
+E:\Project and Script\Application\Orient\obj\Debug\Office_Management_.csproj.CoreCompileInputs.cache
+E:\Project and Script\Application\Orient\obj\Debug\Office_M.B2A40CD0.Up2Date
+E:\Project and Script\Application\Orient\obj\Debug\Orient.dll
+E:\Project and Script\Application\Orient\obj\Debug\Orient.pdb
+E:\Project and Script\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Project and Script\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Project and Script\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Project and Script\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Application\Orient\bin\Orient.dll.config
+E:\Application\Orient\bin\Orient.dll
+E:\Application\Orient\bin\Orient.pdb
+E:\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Application\Orient\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Application\Orient\obj\Debug\Office_Management_.csproj.AssemblyReference.cache
+E:\Application\Orient\obj\Debug\Office_Management_.csproj.CoreCompileInputs.cache
+E:\Application\Orient\obj\Debug\Office_M.B2A40CD0.Up2Date
+E:\Application\Orient\obj\Debug\Orient.dll
+E:\Application\Orient\obj\Debug\Orient.pdb
+E:\Application\Orient\bin\AjaxMin.dll
+E:\Application\Office_Management_\bin\Orient.dll.config
+E:\Application\Office_Management_\bin\Orient.dll
+E:\Application\Office_Management_\bin\Orient.pdb
+E:\Application\Office_Management_\bin\AjaxMin.dll
+E:\Application\Office_Management_\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+E:\Application\Office_Management_\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+E:\Application\Office_Management_\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+E:\Application\Office_Management_\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+E:\Application\Office_Management_\obj\Debug\Office_Management_.csproj.AssemblyReference.cache
+E:\Application\Office_Management_\obj\Debug\Office_Management_.csproj.CoreCompileInputs.cache
+E:\Application\Office_Management_\obj\Debug\Office_M.B2A40CD0.Up2Date
+E:\Application\Office_Management_\obj\Debug\Orient.dll
+E:\Application\Office_Management_\obj\Debug\Orient.pdb

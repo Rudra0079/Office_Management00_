@@ -1,0 +1,17 @@
+﻿
+
+.lblShow
+{
+    float:right;
+    color:White;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.lblhead
+{
+    font-weight:bold;
+    font-size:20px;
+    color:White;
+    text-transform:capitalize;
+}
