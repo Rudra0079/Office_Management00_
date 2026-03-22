@@ -18,15 +18,22 @@ public partial class Test : System.Web.UI.Page
     }
     protected void btnSave1_Click(object sender, EventArgs e)
     {
-        string sCon = "";
+
+
+
+
+        string sCon = "        ";
         sCon = System.Configuration.ConfigurationManager.AppSettings["Strcon"].ToString();
         SqlConnection con = new SqlConnection(sCon);
-        string sQuery = "";
+        string sQuery = "";   
         sQuery = " insert into tblEnquiry(Name,Contact_No,Email_Id,Enquiry_Date,Query) values('" + txtName.Text + "','" + txtContact.Text + "','" + txtEmail.Text + "',Getdate(),'" + txtQuery.Text + "'" + ")";
         SqlCommand cmd = new SqlCommand();
         cmd.CommandText = sQuery;
         cmd.Connection = con;
         cmd.Connection.Open();
+
+
+
 
         cmd.ExecuteNonQuery();
         cmd.Connection.Close();
